@@ -1,7 +1,7 @@
 body {
   margin-right: 50px;
   padding: 50px;
-  background-color: #0A0A0A;
+  background-image: linear-gradient(to right, #240046,#a9def9);
   color: #f0f0f0;
   font-family: 'Roboto';
   font-size: 16px;
