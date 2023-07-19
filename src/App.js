@@ -28,7 +28,7 @@ function App() {
                         <a href="https://www.linkedin.com/in/aman-nagarkar" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
                         <a href="https://twitter.com/nananananaaman" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
                         <a href="https://github.com/amannagarkar" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                        <a href="../res/doc/resume.pdf" target='blank' rel='noopener noreferrer'><i className="fas fa-download"></i></a>
+                        <a href="/res/doc/resume.pdf" target='blank' rel='noopener noreferrer'><i className="fas fa-download"></i></a>
                       </div>
                 </div>
             </div>
