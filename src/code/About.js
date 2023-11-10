@@ -1,5 +1,5 @@
 import React from 'react'
-import './About.css'
+import '../About.css'
 
 function About() {
   return (
@@ -11,11 +11,9 @@ function About() {
         <div className="col">
             <h1>Aman / अमन</h1>
             <h2>Software Engineer</h2>
-            <p>Hey there! I'm Aman, a full-stack software engineer with 3 years of experience. I love creating cool 
-              solutions that users can vibe happy and boost business. My skills include data engineering, backend development, 
-              machine learning systems, parallel computing, data pipelining, distributed processing, cloud computing, and ML 
-              DevOPs. I've worked on a bunch of different projects that solve all kinds of problems. I love a good challenge,
-              and I'm always looking for new opportunities to level up my skills and contribute to projects that make an impact.
+            <p>I am a machine learning engineer with expertise in natural language processing and a passion for developing innovative solutions. 
+              As a recent graduate of Santa Clara University's Master of Science program in Computer Science and Engineering, 
+              I focused my studies on advanced techniques like deep learning and neural networks.<br></br>
             </p>
             <div className="social-buttons">
                 <a href="https://www.linkedin.com/in/aman-nagarkar" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>

@@ -1,8 +1,10 @@
 .section-nav {
     position: fixed;
-    top: 50%;
+    width: fit-content;
+    top: 80%;
     left: 0;
     transform: translateY(-50%);
+    height: 100%;
   }
   
   .section-nav ul {
@@ -18,17 +20,31 @@
   .section-nav a {
     display: block;
     margin-left: 10px;
-    padding: 10px;
-    color: #fff;
+    padding: 20px;
+    color: #dadada;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    transition: all 0.1s ease;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    transition: all 0.2s ease;
   }
   
   .section-nav a:hover {
     font-size: 20px;
-    transition: all 0.1s ease;
+    transition: all 0.2s ease;
+  }
+
+  .section-nav-date{
+    display: flex;
+    padding: 20px;
+  }
+
+  .section-nav-date p {
+    margin-top: 200px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #dadada;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 400;
   }
 
   @media (max-width: 720px) {
@@ -38,3 +54,4 @@
     }
 
   }
+

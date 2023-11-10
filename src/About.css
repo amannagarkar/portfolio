@@ -19,7 +19,7 @@ h1 {
   margin: 0 10px;
   border-radius: 50%;
   background-color: #fff;
-  color: #3c096c;
+  color: #5e5e5e;
   font-size: 20pt;
   text-decoration: none;
   transition: all 0.3s ease;
@@ -27,7 +27,8 @@ h1 {
 
 .social-buttons a:hover {
   background-color: #fff;
-  color: #a9def9;
+  scale: 1.1;
+  color: #002c8a;
 }
 
 .social-buttons a i {

@@ -1,0 +1,41 @@
+.project-grid {
+  display: grid;
+  grid-gap: 20px; /* Adjust the gap between cards as needed */
+
+  /* For larger screens (PC) */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+    font-size: 25px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    background: transparent; /* Use "transparent" for a clear background */
+    border: none;
+    display: block; /* Center alignment */
+    margin: 0 auto; /* Center alignment */
+    padding: 10px 20px; /* Add padding for better interactivity */
+    color: #8e8e8e;
+    cursor: pointer; /* Change cursor on hover */
+    transition: scale 0.3s, color 0.3s; /* Smooth transition for background and text color */
+  }
+  
+  button:hover {
+    color: #333333;
+    scale: 1.05;
+    
+  }
+  
+/* Media query for tablets */
+@media (max-width: 968px) {
+    .project-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+  }
+  
+  /* Media query for smaller screens (e.g., mobile) */
+  @media (max-width: 480px) {
+    .project-grid {
+      grid-template-columns: 1fr; /* 1 column for smaller screens */
+    }
+  }
