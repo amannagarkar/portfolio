@@ -14,7 +14,7 @@ if (isGithubActions) {
 }
 
 const nextConfig = {
-  assetPrefix: assetPrefix,
+  assetPrefix: '/portfolio',
   basePath: basePath,
   images: {
     unoptimized: true, // Disable image optimization for export
