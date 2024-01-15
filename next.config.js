@@ -7,7 +7,7 @@ let basePath = '/';
 
 if (isGithubActions) {
   // trim off `<owner>/`
-  const repo = process.env.portfolio.replace(/.*?\//, '');
+  const repo = process.env.portfolio;
 
   assetPrefix = `/${repo}/`;
   basePath = `/${repo}`;
