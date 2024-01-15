@@ -16,6 +16,9 @@ if (isGithubActions) {
 const nextConfig = {
   assetPrefix: assetPrefix,
   basePath: basePath,
+  images: {
+    unoptimized: true, // Disable image optimization for export
+  },
   reactStrictMode: true,
   experimental: {
     fontLoaders: [
