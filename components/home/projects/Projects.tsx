@@ -24,7 +24,7 @@ const projects = [
     projectLink: "https://example-link.com/",
     tech: ["Java", "Google Cloud Platform", "SQLite", "MongoDB"],
     description:
-    "Architected a full stack application with a conversational agent using REST APIs for a virtual assistant with speech-to-text and name entity recognition abilities. Built backend infrastructure using SQLite and MongoDB for optimal performance and scalability.",
+    "Full stack application with a conversational agent with speech-to-text abilities.",
     modalContent: (
     <>
     <p>
