@@ -134,7 +134,7 @@
     .ag-courses-item_title {
       min-height: 72px;
       line-height: 1;
-      font-size: 24px;
+      font-size: 20px;
     }
     .ag-courses-item_category {
       line-height: 1;
@@ -146,4 +146,6 @@
     .ag-courses-item_date-box {
       font-size: 16px;
     }
+
+    
   }

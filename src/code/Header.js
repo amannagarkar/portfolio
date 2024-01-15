@@ -9,10 +9,10 @@ function Header() {
     <script src="script.js"></script>
         
         <ul>
-        <li className="active"><a href="#portfolio">Projects</a></li>
-        <li><a href="#Timeline">Experience</a></li>
-        <li><a href="#Contact">Contact</a></li>
-        <li><a href="/res/doc/Aman_Nagarkar_Resume.pdf">Resume</a></li>
+        <li className="active"><a href="#portfolio">projects</a></li>
+        <li><a href="#Timeline">experience</a></li>
+        <li><a href="#Contact">contact</a></li>
+        <li><a href="/portfolio/res/doc/Aman_Nagarkar_Resume.pdf">resume</a></li>
         </ul>
         <div className='section-nav-date'>
           <Timer/>
