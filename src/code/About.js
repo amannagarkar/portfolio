@@ -10,9 +10,8 @@ function About() {
         </div>
         <div className="col">
             <h1>Aman / अमन</h1>
-            <h2>Software Engineer</h2>
-            <p>I am a machine learning engineer with expertise in natural language processing and a passion for developing innovative solutions. 
-              As a recent graduate of Santa Clara University's Master of Science program in Computer Science and Engineering, 
+            <h2>PhD student</h2>
+            <p>I am a Phd student and a machine learning engineer with expertise in natural language processing and a passion for developing innovative solutions. 
               I focused my studies on advanced techniques like deep learning and neural networks.<br></br>
             </p>
             <div className="social-buttons">
